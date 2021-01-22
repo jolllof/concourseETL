@@ -112,13 +112,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-
-
-
-
-#&instructor=Term+Effective+Master&year=2021'
-# domain=f'https://liberty.campusconcourse.com/api?version=0&operatio
-#n=course_ids{param}&year={year}'
-
-#domain='https://liberty.campusconcourse.com/api?version=0&operation=
-#course_ids&timeframe=future'
