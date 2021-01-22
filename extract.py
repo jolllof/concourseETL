@@ -1,4 +1,5 @@
-#log name to include some form of date/time
+"""extract simply gets course ids in the initial call and then gets course details for each course.
+it then calls parses each course data with transform object to be loaded."""
 
 from os import system, environ
 import requests
