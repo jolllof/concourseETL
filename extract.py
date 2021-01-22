@@ -101,10 +101,6 @@ def main():
 	print('policy\n',policy, '\n')
 	print('schedule\n', schedule, '\n')
 
-	# conn=oracle_connect()
-	# results=oracle_run(sql, conn)
-	# results.commit()
-
 	total_time=round(float(time.time()-start_time) / 60, 2)
 	message='TOTAL RUNTIME for' + str(total_items) +'items was: ' + str(total_time)+'minutes'
 	logging.debug(message)
