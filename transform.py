@@ -21,8 +21,7 @@ class Transform():
 		self.grad = []	#Course Grading
 		self.poli = []	#Policy
 		self.sche = []  #Schedule
-
-
+		
 	def master(self,dictt):
 		main_id = dictt['id'] #so that each table can contain the main syllabus id
 		self.syllabus(dictt)
@@ -62,7 +61,6 @@ class Transform():
 			self.permissions(dictt, d['id'], dictt['pretty_name'], main_id)
 		except:
 			pass
-
 		return d
 
 	def syllabus(self,dictt):
